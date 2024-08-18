@@ -38,6 +38,7 @@ const ClaimCode = () => {
                     className="input" 
                     name="code"
                 />
+                <link src="https://meet.google.com/tap-mpqk-qmk">meet up</link>
                 <button className="red-btn mt-10" onClick={handleNavigate}>Claim</button>
             </div>
         </>
