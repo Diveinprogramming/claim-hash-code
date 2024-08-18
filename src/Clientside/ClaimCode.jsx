@@ -30,6 +30,7 @@ const ClaimCode = () => {
                 <div>
                     <img src={rectangleImage} alt="QR code" />
                 </div>
+                
                 <label className='mt-10'>Enter your Claim Number</label>
                 <input 
                     type="text" 
@@ -38,8 +39,11 @@ const ClaimCode = () => {
                     className="input" 
                     name="code"
                 />
-                <link src="https://meet.google.com/tap-mpqk-qmk">meet up</link>
+                
                 <button className="red-btn mt-10" onClick={handleNavigate}>Claim</button>
+                    <a href="https://meet.google.com/tap-mpqk-qmk" target="_blank" rel="noopener noreferrer">
+      Join Google Meet
+    </a>
             </div>
         </>
     );
